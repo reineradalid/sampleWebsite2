@@ -1,6 +1,6 @@
-import React, { useState, useEffect, Component } from 'react'
+import React, { useState, useEffect, } from 'react'
 
-import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import {  Element, } from 'react-scroll'
 
 import Nav from  './nav/index'
 import Hero from './hero/hero'

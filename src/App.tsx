@@ -17,14 +17,13 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/sampleWebsite2">
             <Home />
           </Route>
          
         </Switch>
       </Router>
      
-      
     </div>
   );
 }
