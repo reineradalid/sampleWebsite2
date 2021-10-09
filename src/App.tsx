@@ -23,9 +23,7 @@ function App() {
          
         </Switch>
       </Router>
-      <p>
-        typescript not reading
-      </p>
+     
       
     </div>
   );
