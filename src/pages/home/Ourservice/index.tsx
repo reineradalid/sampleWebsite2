@@ -23,7 +23,7 @@ const Service = () =>{
     const [opacity, setOpacity] = useState(false)
     const [activeIndex, setIndex] = useState(-1)
 
- const img ="https://previews.123rf.com/images/rawpixel/rawpixel1606/rawpixel160636720/58613117-business-people-meeting-discussion-corporate-handshake-concept.jpg"
+ const img ="https://wallpaper.dog/large/20504518.jpg"
  const bg ="https://www.techrepublic.com/a/hub/i/r/2017/12/06/f52bed25-1adf-4e42-8cba-65de10538b90/resize/1200x/5d529c82e722c7a32b6144fdccec1f5d/ijeabistock-659493016.jpg"
  
  const handleMouse =(i:any) => {
@@ -36,7 +36,7 @@ const Service = () =>{
  return(
         <>
             <Wrapper >
-                <Container style={{backgroundImage:` linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(${bg})`}} >
+                <Container style={{backgroundImage:` linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(${img})`}} >
                     <H1>
                        <span style={{color:"#ff6622"}}>OUR</span> SERVICES
                     </H1>
