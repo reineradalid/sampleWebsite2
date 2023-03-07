@@ -7,6 +7,7 @@ import Hero from './hero/hero'
 import About from './aboutUs/index.js'
 import Service from './Ourservice/index'
 import Portfolio from './portfolio/index'
+import Footer from './footer/index'
 
 const Home = () =>{
 
@@ -56,7 +57,9 @@ const Home = () =>{
             <Element name="portfolio">
                 <Portfolio/>
             </Element>
-           
+            <Element name="portfolio">
+                <Footer/>
+            </Element>
         </div>
     );
 }

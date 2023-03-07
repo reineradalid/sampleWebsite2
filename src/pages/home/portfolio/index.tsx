@@ -21,7 +21,7 @@ import {
 const Portfolio = () =>{
 
     const sample =[1,2,3]
-    const bg ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ4A3yaKtJYYBT9hnQX2GNsqYX8zcAww7yrQ&usqp=CAU"
+    const bg ="https://weblium.com/blog/wp-content/uploads/2019/01/image1-1000x534.png"
     const img ="https://previews.123rf.com/images/rawpixel/rawpixel1606/rawpixel160636720/58613117-business-people-meeting-discussion-corporate-handshake-concept.jpg"
     return(
         <>
