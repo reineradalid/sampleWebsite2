@@ -47,6 +47,9 @@ const Nav  : React.FC<Props> = ({
                     <Link activeClass="active" to="portfolio" spy={true} smooth={true} duration={1000} style={{color:color,  textDecoration:" none",}} href="/">
                         Portfolio
                     </Link>
+                    {/* <a  >
+                        <Signin/> / Sign Up
+                    </a> */}
                     
                 </div>
             </Container>

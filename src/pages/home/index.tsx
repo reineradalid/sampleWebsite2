@@ -8,12 +8,14 @@ import About from './aboutUs/index.js'
 import Service from './Ourservice/index'
 import Portfolio from './portfolio/index'
 import Footer from './footer/index'
+import Signin from './signin'
 
 const Home = () =>{
 
     const [color, setColor] = useState("#fff")
     const [bgcolor, setBgColor] = useState("")
     const [height, setHeight] = useState(60)
+    const [visible, setVisible] =useState(true)
 
 
       useEffect(() => {
@@ -60,6 +62,7 @@ const Home = () =>{
             <Element name="portfolio">
                 <Footer/>
             </Element>
+           {/* <Signin visible={visible} /> */}
         </div>
     );
 }
